@@ -33,12 +33,6 @@ class Sim800lM
  	//Arithmetic operation
  	String toString(double num);
  	double toDouble(String numS);
-
- 	// Methods for calling || Funciones de llamadas.
- 	bool answerCall();
- 	void callNumber(char* number);
- 	bool hangoffCall();
- 	uint8_t getCallStatus();
  	//Methods for sms || Funciones de SMS.
 	bool sendSms(String number,String text);
 	String readSms(uint8_t index); //return all the content of sms
