@@ -4,4 +4,5 @@ IN this project we have build a Highly Secured electric prepaid meter.which can 
 Instruction :
 Download the folder and unzip SIM-800lM and copy to arduino library
 now move this folder to library folder of arduino.
+or direct add zip file to library
 download power analysis library from : https://github.com/shuvangkar/PowerAnalyzer-for-Arduino
