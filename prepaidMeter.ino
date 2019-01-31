@@ -14,7 +14,7 @@
  
 */
 
-#include <Sim800lM.h>
+#include <SIM800lM.h>
 #include <SoftwareSerial.h> //SoftwareSerial library for serial operation
 Sim800lM Sim800lM;  //to declare the Object for GSM
 #include "PowerAnalyzer.h" // including power measuring library created by shuvonkor shuvo 
@@ -59,7 +59,7 @@ void loop(){
           Serial.println("entering statements");         
         if (textSms.length() > 7)  // optional you can avoid SMS empty
             {
-				*/	Msg Format are :
+				/*	Msg Format are :
 				*	For Recharge 		: RE 1212(This is Password) %100(This is Balance)
 				*	For Statement		: Statement 1212 
 				*	For Power Turn OFF	: Off 1212
